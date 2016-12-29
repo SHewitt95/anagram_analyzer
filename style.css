@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #bdbdbd; /* Light Gray */
+}
+
+.container {
+    width: 320px;
+    height: 320px;
+    background-color: #008B8B	; /* Dark Cyan */
+    margin: 0 auto;
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.44);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.44);
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.44);
+    padding: 1em;
+}
+
+form {
+    display: block;
+}
+
+.formSection {
+    display: block;
+    margin: 20px auto;
+}
+
+.formSection label, .formSection .title, #result {
+    display: block;
+    font-size: 1.5em;
+}
+
+@media (max-width: 450px) {
+    .container {
+        width:100%;
+        padding: 0.5em;
+    }
+
+    form {
+        width: 100%;
+    }
+}
